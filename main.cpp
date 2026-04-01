@@ -6,12 +6,12 @@ int main() {
     int begin, end;
     long long sum = 0;
     
-    // prompt until begin <= end
-    cout << "Enter begin and end values: ";
-    cin >> begin >> end;
-    while (begin > end) {
+    while (true) {
         cout << "Enter begin and end values: ";
         cin >> begin >> end;
+        if (begin <= end) {
+            break;
+        }
     }
 
     for (int i = begin; i <= end; ++i) {
