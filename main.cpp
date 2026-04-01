@@ -15,7 +15,9 @@ int main() {
     }
 
     for (int i = begin; i <= end; ++i) {
-        if (i % 2 == 0) sum += i;
+        if (i % 2 == 0) {
+            sum += i;
+        }
     }
 
     cout << "The sum of even values is " << sum << endl;
