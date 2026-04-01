@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-    int i, begin, end, summation = 0;
+    int i, begin, end;
+    long long summation = 0;
 
     // TODO: prompt user for begin and end values
     cout << "Enter begin and end values: ";
