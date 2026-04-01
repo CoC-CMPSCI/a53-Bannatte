@@ -20,6 +20,6 @@ int main() {
     
     int result = sum_of_evens(begin, end);
 
-    cout << "The sum of even values is " << sum << endl;
+    cout << "The sum of even values is " << result << endl;
     return 0;
 }
