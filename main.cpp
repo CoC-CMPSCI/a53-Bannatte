@@ -4,16 +4,17 @@ using namespace std;
 
 int main()
 {
-    int begin, end, sum = 0;
+    int begin, end;
+    int sum = 0;
 
     cout << "Enter begin and end values: ";
     cin >> begin >> end;
 
     // TODO: prompt user for begin and end values
-    while (begin > end) {
+    do {
         cout << "Enter begin and end values: ";
         cin >> begin >> end;
-    }
+    } while (begin > end);
     
     // TODO: loop from begin to end and accumulate sum of even values
     for (int i = begin; i <= end; ++i) {
