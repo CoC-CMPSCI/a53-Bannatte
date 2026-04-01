@@ -11,7 +11,7 @@ int main() {
     
         
     // TODO: loop from begin to end and accumulate sum of even values
-    for (int i = begin; i <= end; ++i) {
+    for (int i = begin; i <= end; i++) {
         if (i % 2 == 0) {
             summation += i;
         }
