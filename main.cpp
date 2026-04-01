@@ -6,7 +6,7 @@ int main() {
     long long summation = 0;
 
     // TODO: prompt user for begin and end values
-    cout << "Enter begin and end values: ";
+    // cout << "Enter begin and end values: ";
     cin >> begin >> end;
         
     // TODO: loop from begin to end and accumulate sum of even values
