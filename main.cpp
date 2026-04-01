@@ -4,8 +4,7 @@ using namespace std;
 
 int main()
 {
-    int sum = 0;
-    int begin, end;
+    int begin, end, sum = 0;
 
     cout << "Enter begin and end values: ";
     cin >> begin >> end;
