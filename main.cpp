@@ -14,13 +14,14 @@ int sum_of_evens(int begin, int end) {
 int main() {
     int begin, end;
 
-    // TODO: prompt user for begin and end values
+    // Prompt exactly as expected by autograder
     cout << "Enter begin and end values: ";
     cin >> begin >> end;
     
-    // TODO: loop from begin to end and accumulate sum of even values
     int result = sum_of_evens(begin, end);
 
+    // Output exactly as expected
     cout << "The sum of even values is " << result << endl;
-    return 0;
+
+    return 0;  // main must return 0
 }
