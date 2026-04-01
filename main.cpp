@@ -5,7 +5,7 @@ int sum_of_evens(int begin, int end) {
     int sum = 0;
     for (int i = begin; i <= end; i++) {
         if (i % 2 == 0) {
-            sum += 1
+            sum += i;
         }
     }
     return sum;
