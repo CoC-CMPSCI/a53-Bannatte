@@ -1,26 +1,20 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
-int main()
-{
+int main() {
     int begin, end;
     int sum = 0;
 
+    // prompt until begin <= end
     cout << "Enter begin and end values: ";
     cin >> begin >> end;
-
-    // TODO: prompt user for begin and end values
-    do {
+    while (begin > end) {
         cout << "Enter begin and end values: ";
         cin >> begin >> end;
-    } while (begin > end);
-    
-    // TODO: loop from begin to end and accumulate sum of even values
+    }
+
     for (int i = begin; i <= end; ++i) {
-        if (i % 2 == 0) {
-            sum += i;
-        }
+        if (i % 2 == 0) sum += i;
     }
 
     cout << "The sum of even values is " << sum << endl;
