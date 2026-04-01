@@ -3,8 +3,7 @@
 using namespace std;
 
 int main() {
-    int begin, end;
-    int sum = 0;
+    int i, begin, end, sum = 0;
 
     cin >> begin >> end;
     
