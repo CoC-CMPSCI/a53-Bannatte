@@ -4,9 +4,8 @@ using namespace std;
 
 int main()
 {
-    int i, sum = 0;
-    int begin = 1;
-    int end = 0;
+    int sum = 0;
+    int begin = 1, end = 0;
 
     // TODO: prompt user for begin and end values
     while (begin > end) {
