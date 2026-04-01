@@ -5,7 +5,10 @@ using namespace std;
 int main() {
     int begin, end;
     long long sum = 0;
+
+    cin >> begin >> end;
     
+    /*
     while (true) {
         cout << "Enter begin and end values: ";
         cin >> begin >> end;
@@ -13,6 +16,7 @@ int main() {
             break;
         }
     }
+    */
 
     for (int i = begin; i <= end; ++i) {
         if (i % 2 == 0) {
