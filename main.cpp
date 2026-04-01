@@ -17,7 +17,11 @@ int main() {
 
     cout << "Enter begin and end values: ";
     cin >> begin >> end;
-    
+
+    if (begin > end) {
+        begin, end = end, begin;
+    }
+
     int result = sum_of_evens(begin, end);
 
     cout << "The sum of even values is " << result << endl;
