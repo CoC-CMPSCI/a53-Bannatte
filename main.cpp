@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
     int begin, end;
-    int sum = 0;
-
+    long long sum = 0;
+    
     // prompt until begin <= end
     cout << "Enter begin and end values: ";
     cin >> begin >> end;
