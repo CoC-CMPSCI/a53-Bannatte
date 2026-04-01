@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int i, begin, end;
+    long long begin, end;
     long long summation = 0;
 
     // TODO: prompt user for begin and end values
@@ -10,7 +10,7 @@ int main() {
     cin >> begin >> end;
         
     // TODO: loop from begin to end and accumulate sum of even values
-    for (int i = begin; i <= end; ++i) {
+    for (long long i = begin; i <= end; ++i) {
         if (i % 2 == 0) {
             summation += i;
         }
