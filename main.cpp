@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int sum_of_evens(int begin, int end) {
@@ -14,14 +15,11 @@ int sum_of_evens(int begin, int end) {
 int main() {
     int begin, end;
 
-    // Prompt exactly as expected by autograder
     cout << "Enter begin and end values: ";
     cin >> begin >> end;
     
     int result = sum_of_evens(begin, end);
 
-    // Output exactly as expected
-    cout << "The sum of even values is " << result << endl;
-
-    return 0;  // main must return 0
+    cout << "The sum of even values is " << sum << endl;
+    return 0;
 }
