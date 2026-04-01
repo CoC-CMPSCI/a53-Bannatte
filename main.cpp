@@ -18,5 +18,5 @@ int main() {
     }
 
     cout << "The sum of even values is " << summation << endl;
-    return 0;
+    return summation;
 }
