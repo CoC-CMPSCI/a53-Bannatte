@@ -1,9 +1,9 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
-    int begin, end;
-    long long sum = 0;
+    int i, begin, end, sum = 0;
     
     // prompt until begin <= end
     cout << "Enter begin and end values: ";
