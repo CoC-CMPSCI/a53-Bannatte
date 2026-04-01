@@ -2,17 +2,19 @@
 using namespace std;
 
 int main() {
-    long long begin, end, sum = 0;
+    int i, begin, end, summation = 0;
 
+    // TODO: prompt user for begin and end values
+    cout << "Enter begin and end values: ";
     cin >> begin >> end;
-
-    for (long long i = begin; i <= end; ++i) {
+        
+    // TODO: loop from begin to end and accumulate sum of even values
+    for (int i = begin; i <= end; ++i) {
         if (i % 2 == 0) {
-            sum += i;
+            summation += i;
         }
     }
 
-    cout << "The sum of even values is " << sum << endl;
-
+    cout << "The sum of even values is " << summation << endl;
     return 0;
 }
